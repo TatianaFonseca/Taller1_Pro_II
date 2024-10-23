@@ -68,6 +68,6 @@ public void imprimirInfoEmpleado() {
     System.out.println("Fecha de Nacimiento: " + nacimiento);
     System.out.println("Fecha de Ingreso a la Empresa: " + fechaInicio);
     System.out.println("Edad: " + calEdad());
-    System.out.println(" Prestaciones: $ %.2f" + prestaciones());
+    System.out.println(" Prestaciones: $" + prestaciones());
     }
 }

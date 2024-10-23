@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 public class Cuadrado {
     double lado;
     public Cuadrado(double lado){

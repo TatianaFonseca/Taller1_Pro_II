@@ -1,7 +1,9 @@
+package Ejercicio1;
+
 public class Rectangulo {
     double base,altura;
 
-    public Rectangulo(double base,double altura){
+    public Rectangulo(double base, double altura){
         this.base=base;
         this.altura=altura;
     }

@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 public class Triangulo {
     double base,altura,lado1,lado2,lado3;
 

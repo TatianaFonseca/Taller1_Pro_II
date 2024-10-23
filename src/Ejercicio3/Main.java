@@ -16,6 +16,7 @@ public class Main {
         Carro carr0 = new Carro(numeroDeMotor, numeroDeVentanas,numeroDePuertas
                 ,marca, modelo,kilometrajeInicial, kilometrajeFinal);
 
-        JOptionPane.showMessageDialog(null,carr0.Informacion());
+        //imprimir la info del carro
+       carr0.Informacion();
     }
 }

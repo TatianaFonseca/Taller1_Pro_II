@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -19,22 +21,28 @@ public class Main {
                     double lado1 = 0, base = 0, altura = 0, lado3 = 0, lado2 = 0;
                     System.out.println("Ingrese el valor de la base:");
                     base = Double.parseDouble(reader.readLine());
-                    System.out.println("Ingrese el valor de la altura");
+                    System.out.println("Ingrese el valor de la altura: ");
                     altura = Double.parseDouble(reader.readLine());
                     System.out.println("Ingrese el lado 1: ");
                     lado1 = Double.parseDouble(reader.readLine());
                     System.out.println("Ingrese el lado 2:");
                     lado2 = Double.parseDouble(reader.readLine());
                     System.out.println("Ingrese el lado 3:");
+
                     lado3 = Double.parseDouble(reader.readLine());
+
                     Triangulo triangulo = new Triangulo(base, altura, lado1, lado2, lado3);
+
                     System.out.println("El area del triangulo es: " + triangulo.calcularArea());
                     System.out.println("El perimetro del triangulo es: " + triangulo.calcularPerimetro());
                     break;
                 case 2:
                     double lado = 0;
                     System.out.println("Ingrese el lado del cuadrado");
+                    lado=Double.parseDouble(reader.readLine());
+
                     Cuadrado cuadrado = new Cuadrado(lado);
+
                     System.out.println("El area del cuadrado es: " + cuadrado.calcularArea());
                     System.out.println("El perimetro del cuadrado es: "+cuadrado.calcularPerimetro());
                     break;
@@ -44,7 +52,9 @@ public class Main {
                     baseR = Double.parseDouble(reader.readLine());
                     System.out.println("Ingrese la altura del rectangulo");
                     alturaR = Double.parseDouble(reader.readLine());
+
                     Rectangulo rectangulo = new Rectangulo(baseR, alturaR);
+
                     System.out.println("El area del rectangulo es: "+ rectangulo.calcularArea());
                     System.out.println("El perimetro del rectangulo es: "+rectangulo.calcularPerimetro());
                     break;
